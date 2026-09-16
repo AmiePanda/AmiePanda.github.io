@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const A = "/portfolio/";
+const A = "https://amanda-masi-architecture.amandau-masi.chatgpt.site/portfolio/";
 type Detail = { src: string; title: string; eyebrow: string; text: string };
 
 const plans: Detail[] = [
