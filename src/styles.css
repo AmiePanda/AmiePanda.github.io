@@ -215,7 +215,8 @@ p{line-height:1.72;max-width:72ch}
 .modalImage{position:relative}
 .modalImage:after{content:"AMANDA MASI  © 2026";position:absolute;right:34px;bottom:30px;padding:7px 10px;background:#211f1bcc;color:#fffaf1;border:1px solid #ffffff80;font:700 11px/1 Arial,sans-serif;letter-spacing:.13em;pointer-events:none}
 .protectedNote{margin-top:22px;padding-top:17px;border-top:1px solid var(--line);color:var(--wine);font-size:12px!important;text-transform:uppercase;letter-spacing:.1em;font-weight:700}
+.portfolioLabel{display:inline-block;width:auto;margin-bottom:0;padding-bottom:9px;border-bottom:1px solid currentColor;white-space:nowrap}
 .copyright{position:relative;z-index:2;grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px 24px;padding-top:28px;margin-top:18px;border-top:1px solid #ffffff55;color:#fff}
 .copyright strong{font-size:13px;letter-spacing:.04em}
 .copyright span{max-width:760px;font-size:12px;line-height:1.55;color:#ffffffc9}
-@media(max-width:900px){.authorshipNote{margin:-18px 0 48px;grid-template-columns:1fr;gap:8px;padding:18px}.modalImage:after{right:22px;bottom:20px;font-size:9px}.copyright{display:block}.copyright strong,.copyright span{display:block}.copyright span{margin-top:9px}}
+@media(max-width:900px){.authorshipNote{margin:-18px 0 48px;grid-template-columns:1fr;gap:8px;padding:18px}.portfolioLabel{letter-spacing:.12em}.modalImage:after{right:22px;bottom:20px;font-size:9px}.copyright{display:block}.copyright strong,.copyright span{display:block}.copyright span{margin-top:9px}}
